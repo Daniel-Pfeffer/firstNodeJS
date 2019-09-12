@@ -4,17 +4,20 @@
   "description": "first server in node",
   "main": "index.js",
   "scripts": {
-    "start": "tsc --watch && nodemon dist/index.js",
+    "start": "tsc --watch & nodemon dist/index.js",
     "prod": "tsc --"
   },
-  "keywords": ["NodeJS Server"],
+  "keywords": [
+    "NodeJS Server"
+  ],
   "author": "Daniel Pfeffer",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "formidable": "^1.2.1"
+    "formidable": "^1.2.1",
+    "mariadb": "^2.1.1"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
