@@ -161,3 +161,4 @@ fabric.properties
 
 #Custom
 dist/
+package-lock.json
